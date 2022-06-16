@@ -1,0 +1,141 @@
+/* HEADER */
+
+img {
+    width: 100%;
+}
+
+.encabezado img {
+    width: 16%
+}
+
+.container-fluid a img {
+    width: 29%;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem;
+    -webkit-box-shadow: 0px 14px 13px 0px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 14px 13px 0px rgba(0, 0, 0, 0.28);
+    box-shadow: 0px 14px 13px 0px rgba(0, 0, 0, 0.28);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 15px;
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
+    transition: 0.1s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+}
+
+nav ul li:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    background-color: white;
+}
+
+.bg-light {
+    background-color: white;
+}
+
+.col {
+    flex: 0;
+    margin-bottom: 20px;
+}
+
+.row {
+    justify-content: center;
+}
+
+
+/* CUERPO */
+
+.w-100 {
+    width: 83%!important;
+    height: 75vh;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.subencabezado,
+.ordenar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subencabezado {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.ordenar {
+    align-items: center;
+}
+
+.ordenar p {
+    margin: auto 0;
+}
+
+.footer {
+    height: 50px;
+}
+
+.columnas .row {
+    padding-top: 20px;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.btn {
+    width: 100%;
+    background-color: rgb(131, 184, 107);
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(179, 204, 168);
+}
+
+@media (max-width:800px) {
+    .w-100 {
+        width: 83%!important;
+        height: 23vh;
+        margin: 20px auto;
+        max-width: 1200px;
+    }
+}
